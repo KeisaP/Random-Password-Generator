@@ -40,8 +40,8 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ### Screenshots
 
 ![Screenshot #1](assets/images/Screenshot%201.PNG)
-![Screenshot #2](assets\images\Screenshot%202.PNG)
-![Screenshot #3](assets\images\Screenshot%203.PNG)
-![Screenshot #4](assets\images\Screenshot%204.PNG)
-![Screenshot #5](assets\images\Screenshot%205.PNG)
-![Screenshot #6](assets\images\Screenshot%206.PNG)
+![Screenshot #2](assets/images/Screenshot%202.PNG)
+![Screenshot #3](assets/images\Screenshot%203.PNG)
+![Screenshot #4](assets/images/Screenshot%204.PNG)
+![Screenshot #5](assets/images/Screenshot%205.PNG)
+![Screenshot #6](assets/images/Screenshot%206.PNG)
