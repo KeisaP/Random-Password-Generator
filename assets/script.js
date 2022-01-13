@@ -2,49 +2,55 @@
 var generateBtn = document.querySelector("#generate");
 
 
+
 var alphaUpper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var alphaLower = "abcdefghijklmnopqrstuvwxyz";
 var specialCharacters = "!#$%&'()*+-./:;<=>?@[}\^_'{|}~";
 var numbers = "1234567890"
-var passwordLength = "";
+var password = "";
+
+
+let passwordLength = prompt("How many characters would you like? (Please choose between 8 and 128)")
+
+if (passwordLength < 8) {
+  prompt("Password must be a minimum 8 characters. How many characters would you like?")
+ } else if (passwordLength > 128) {
+  prompt("Password must not have more than 128 characters. How many characters would you like?");
+} else {
+  passwordLength = parseInt(passwordLength);
+}
+
+console.log(passwordLength);
 
 var alphaUpperChoice = confirm("Would you like uppercase letters?");
 var alphaLowerChoice = confirm("Would you like lowercase letters?");
 var specialCharactersChoice = confirm("Would you like special characters?");
 var numbersChoice = confirm("Would you like numbers?");
 
-// Write password to the #password input
-var passwordLength = alert("How many characters would you like? (Please choose between 8 and 128)")
-passwordLength = parseInt(passwordLength);
 
-if (passwordLength < 8) {
-  alert("Password must be a minimum 8 characters");
-  return "";
-}
-
-if (passwordLength > 128) {
-  alert("Password must not have more than 128 characters");
-  return "";
-}
-
+let chars
+function generatePassword(){
 if (alphaUpperChoice) {
-  passwordText += alphaUpper;
+  chars += alphaUpper;
 }
 
 if (alphaLowerChoice) {
-  passwordText += alphaLower;
+  chars += alphaLower;
 }
 
 if (specialCharactersChoice) {
-  passwordText += specialCharacters;
+  chars += specialCharacters;
 }
 
 if (numbersChoice) {
-  passwordText += numbers;
+  chars += numbers;
 }
 
 for (var i=0; i < passwordLength; i++) {
-  password = passwordText[Math.floor(Math.random() * passwordText.length)]
+  password += chars[Math.floor(Math.random() * chars.length)];
+}
+
+return password;
 }
 
 function writePassword() {
@@ -56,4 +62,4 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generate.addEventListener("click", writePassword);
