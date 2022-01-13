@@ -33,15 +33,15 @@ THEN I am presented with a responsive layout that adapts to my viewport
 ### Links
 [Link to Live Webpage](https://keisap.github.io/Random-Password-Generator/)
 
-[Link to Github Repository](https://github.com/KeisaP/professional-profile)
+[Link to Github Repository](https://github.com/KeisaP/Random-Password-Generator)
 
 <br>
 
 ### Screenshots
 
-![Screenshot #1](assets\images\Screenshot 1.PNG)
-![Screenshot #2](assets\images\Screenshot 2.PNG)
-![Screenshot #3](assets\images\Screenshot 3.PNG)
-![Screenshot #4](assets\images\Screenshot 4.PNG)
-![Screenshot #5](assets\images\Screenshot 5.PNG)
-![Screenshot #6](assets\images\Screenshot 6.PNG)
+![Screenshot #1](assets\images\Screenshot%201.PNG)
+![Screenshot #2](assets\images\Screenshot%202.PNG)
+![Screenshot #3](assets\images\Screenshot%203.PNG)
+![Screenshot #4](assets\images\Screenshot%204.PNG)
+![Screenshot #5](assets\images\Screenshot%205.PNG)
+![Screenshot #6](assets\images\Screenshot%206.PNG)
