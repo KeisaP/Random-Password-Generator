@@ -31,7 +31,7 @@ THEN I am presented with a responsive layout that adapts to my viewport
 <br>
 
 ### Links
-[Link to Live Webpage](https://github.com/KeisaP/Random-Password-Generator)
+[Link to Live Webpage](https://keisap.github.io/Random-Password-Generator/)
 
 [Link to Github Repository](https://github.com/KeisaP/professional-profile)
 
